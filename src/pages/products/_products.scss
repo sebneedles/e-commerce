@@ -1,0 +1,25 @@
+.products {
+  grid-template-columns: repeat(3, 290px);
+
+  .card__products {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    &-thumb {
+      .image {
+        width: 295px;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      figcaption {
+        .title__card {
+        }
+        .price {
+        }
+      }
+    }
+  }
+}

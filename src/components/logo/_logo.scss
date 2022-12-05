@@ -1,0 +1,30 @@
+.content__logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 190px;
+  justify-content: space-between;
+  height: 70px;
+
+  .logo {
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    background: linear-gradient(325deg, #6c45ff, #e22fff);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+  .text {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    background: linear-gradient(90deg, #6c45ff, #fff, #e22fff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+  }
+}

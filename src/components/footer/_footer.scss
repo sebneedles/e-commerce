@@ -1,0 +1,17 @@
+footer {
+  width: 100%;
+  background-color: rgb(14, 1, 56);
+  height: auto;
+
+  .footer__content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+    &-items {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

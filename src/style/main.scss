@@ -1,0 +1,18 @@
+// BASE
+@import './base/base';
+@import './base/variables';
+
+// COMPONENTS
+@import '../components/header/header';
+@import '../components/nav/nav';
+@import '../components/footer/footer';
+@import '../components/Infos/infos';
+@import '../components/logo/logo';
+
+// PAGES
+@import '../pages/home/home';
+@import '../pages/products/products';
+@import '../pages/products/product';
+@import '../pages/about/abouts';
+@import '../pages/contact/contact';
+@import '../pages/error/error';
