@@ -1,3 +1,15 @@
 // FONTS
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+:root {
+  // COLORS
+  --primary-color: #6c45ff;
+  --secondary-color: #e22fff;
+  --tertiary-color: #0e0138;
+  --white-color: #fff;
+  --black-color: #000;
+  --grey-color: #aaa;
+  --grey-color-light: #f6f6f6;
+  --grey-color-dark: #555;
+}

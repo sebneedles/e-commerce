@@ -5,14 +5,14 @@
 
   a {
     text-decoration: none;
-    color: #fff;
-    font-weight: 400;
+    color: var(--grey-color-dark);
+    font-weight: 500;
     font-size: medium;
     transition: 0.3s;
     margin: 0 0.8rem;
 
     &:hover {
-      color: #e22fff;
+      color: var(--primary-color);
     }
   }
 }
@@ -22,9 +22,9 @@
 
   &::after {
     content: '';
-    height: 1px;
+    height: 2px;
     width: 0;
-    background: #fff;
+    background: var(--primary-color);
     position: absolute;
     border-radius: 10px;
     top: 22px;

@@ -8,18 +8,16 @@
     text-decoration: none;
   }
 
-  .info {
+  .info,
+  span {
     margin: 0 0.3rem;
     color: #aaa;
-    padding: 0 0.5rem;
+    padding: 0 0.2rem;
+    transition: 0.3s;
+    font-size: 1rem;
 
-    span {
-      font-size: 0.7rem;
-      transition: 0.3s;
-
-      &:hover {
-        color: #e22fff;
-      }
+    &:hover {
+      color: var(--primary-color);
     }
 
     .fa-shopping-bag {

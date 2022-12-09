@@ -21,10 +21,6 @@
   .text {
     font-family: 'Sacramento', cursive;
     font-size: 30px;
-    background: linear-gradient(90deg, #6c45ff, #fff, #e22fff);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    -o-text-fill-color: transparent;
+    color: var(--primary-color);
   }
 }

@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
+import Hero from './Hero';
 
 const Home = () => {
   return (
     <>
       <Header />
+      <Hero />
       <main>
-        <h1>Accueil</h1>
+        <section className="home"></section>
       </main>
       <Footer />
     </>
